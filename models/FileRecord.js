@@ -6,7 +6,7 @@ import connectDB from "@/lib/mongodb";
 import EmployeeAccount from "@/models/EmployeeAccount";
 import BranchMonthlyReport from "@/models/BranchMonthlyReport";
 import {LoanData} from "@/models/LoanData";
-import FileRecord from "@/models/FileRecord"; // optional if needed
+
 
 export async function GET(req) {
   await connectDB();
