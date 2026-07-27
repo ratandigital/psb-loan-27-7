@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import connectDB from "@/lib/mongodb";
 import { LoanData, EmployeeData } from "@/models/LoanData";
-import FileRecord from "@/models/FileRecord";
+import {FileRecord} from "@/models/FileRecord";
 import { getLoanAnniversaryMembers } from "@/lib/filterLogic";
 import { sendEmail } from "@/lib/sendEmail";
 
